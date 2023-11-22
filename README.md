@@ -6,10 +6,10 @@ This tool will transcode binary data into a byte table of strings
 `-b <file> Path to .bin that will be encoded`  
 `-w <file> Path to wordlist`  
 `-o <file> Output file path [optional]`  
-Example:
+Example:  
 `opcode-To-strings.exe -b "C:\Users\You\Desktop\fun.bin\" -o .\repo\cool.cs`  
 
 # TODO:
-- Implement decryption project
-- Replace specific objects for better efficiency
-- Polish
+- Implement decryption project  
+- Replace specific objects for better efficiency  
+- Polish  
