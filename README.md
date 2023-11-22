@@ -10,6 +10,7 @@ Example:
 `opcode-To-strings.exe -b "C:\Users\You\Desktop\fun.bin" -w .\wordlist.txt -o .\repo\cool.cs`  
 
 # TODO:
+- format code to output filetype style
 - Implement decryption project  
 - Replace specific objects for better efficiency  
 - Polish  
