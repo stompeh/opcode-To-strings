@@ -7,7 +7,7 @@ This tool will transcode binary data into a byte table of strings
 `-w <file> Path to wordlist`  
 `-o <file> Output file path [optional]`  
 Example:  
-`opcode-To-strings.exe -b "C:\Users\You\Desktop\fun.bin\" -o .\repo\cool.cs`  
+`opcode-To-strings.exe -b "C:\Users\You\Desktop\fun.bin\" -w .\wordlist.txt -o .\repo\cool.cs`  
 
 # TODO:
 - Implement decryption project  
