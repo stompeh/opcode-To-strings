@@ -8,14 +8,15 @@ namespace opcode_To_strings
 {
     internal class OutputFormatter
     {
+        
         string midFunc = "";
         string bottomFunc = "\n};";
         List<string> encodedPayload;
         List<string> keyWords;
         List<string> formattingTemp = new List<string>();
 
-        string formattedPayload = "";
-        string formattedKeyWords = "";
+        public string formattedPayload = "";
+        public string formattedKeyWords = "";
 
         public OutputFormatter(List<string> encodedPayload, List<string> keyWords)
         {
@@ -23,7 +24,7 @@ namespace opcode_To_strings
             this.keyWords = keyWords;
 
             FormatList(encodedPayload, "encodedPayload", ref formattedPayload);
-            FormatList(keyWords, "pickedWordskey", ref formattedKeyWords);
+            FormatList(keyWords, "keyWords", ref formattedKeyWords);
         }
 
         private void FormatList(List<string> inputList, string bufName, ref string outFormat)

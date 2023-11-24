@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opcode-To-strings", "opcode-To-strings\opcode-To-strings.csproj", "{02AE267E-E88C-4CB5-978C-67130AA30849}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strings-To-opcode", "strings-To-opcode\strings-To-opcode.csproj", "{500396BB-1EE1-46D8-99C7-2A9A2808101B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POC", "strings-To-opcode\POC.csproj", "{500396BB-1EE1-46D8-99C7-2A9A2808101B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

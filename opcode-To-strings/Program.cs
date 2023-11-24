@@ -17,11 +17,11 @@ namespace opcode_To_strings
             if (args.Contains("-h") || largs.Count < 1)
             {
                 Console.WriteLine(
-                "This tool will transcode binary data into a byte table of strings\n\n" +
+                "This tool will transform binary data into a byte table of strings, and save to output file.\n\n" +
                 "-b <file>\tPath to .bin that will be encoded\n" +
                 "-w <file>\tPath to wordlist\n" +
                 "-o <file>\tOutput file path [optional]\n" +
-                "\n\nExample:\nopcode-To-strings.exe -b \"C:\\Users\\You\\Desktop\\fun.bin\" -o .\\cool\\cool.cs"
+                "\n\nExample:\nopcode-To-strings.exe -b \"C:\\Users\\You\\Desktop\\fun.bin\" -w .\\wordlist.txt -o .\\result\\cool.cs"
                 );
                 return;
             }
