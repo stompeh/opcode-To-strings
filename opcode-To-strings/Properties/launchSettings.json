@@ -1,8 +1,7 @@
 {
   "profiles": {
     "StrMapToOp_console": {
-      "commandName": "Project",
-      "commandLineArgs": "-b C:\\Users\\Stompy\\Desktop\\yea.bin -w C:\\Users\\Stompy\\Downloads\\words.txt"
+      "commandName": "Project"
     }
   }
 }
