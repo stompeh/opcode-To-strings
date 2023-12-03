@@ -5,7 +5,7 @@ A problem with storing Base64 in an implant is how random it may seem, increasin
 Encryption can sometimes trigger AV and EDR products to throw a flag on the binary if the object entropy is high enough.  
 What about plain old English?
 
-Default output is in C# style, but can be used in nearly all languages.  
+An end result proof of concept can be observed in the POC folder.
 
 # Getting Started
 Create bytecode and save into a .bin
